@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://media.glassdoor.com/sqll/8799/extreme-networks-squarelogo-1408642021345.png" type="image/x-icon">
+    <title>ExtremeCloud IQ</title>
+</head>
+<body>
+    <div id="column">
+        <div id="xiqlogo">
+            <img src="assets/logo.svg" alt="Extreme Networks logo">
+        </div>
+
+        <div id="login">
+            <form action="">
+                <div>
+                    <label for="user">Email</label>
+                    <br>
+                    <br>
+                    <input type="text"  id="user" required>
+                </div>
+                <br>
+                <div>
+                    <label for="password">Password</label>
+                    <br>
+                    <br>
+                    <input type="password"  id="password">
+                </div>
+                <br>
+                <button onclick="validate()" id="loginBtn" type="submit">LOGIN</button>
+
+
+                <br>
+                <p>Forgot your password?  <a href="reset.html" style="color: #069185;" class="reset">Reset it here</a></p>
+                <br>
+                <p>Don't have an account?  <a href="register.html" style="color: #069185;" class="register">Register here</a></p>
+            </form>
+        </div>
+
+        <div>
+            
+        </div>
+    </div>
+
+    <div id="banner">
+        <div class="cover-color"></div>
+        <img src="https://cloud-status.extremecloudiq.com/communications/banner/banner.svg" alt="Extreme Banner" width="700">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
