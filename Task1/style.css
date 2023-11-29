@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#column {
+    float: left;
+    padding: 50px;
+    margin: 30px;
+}
+
+#xiqlogo{
+    width: 100%;
+    height: 50%;
+}
+
+#login{
+    padding: 40px;
+    margin: 30px;
+    font-size: 15px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+#user{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+}
+
+#password{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+}
+
+#banner{
+    padding-top: 150px;
+    padding-left: 20px;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+#loginBtn {
+    width: 100%;
+    margin: 8px 5px;
+    background-color: #069185;
+    padding: 7px 18px;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.reset{
+    text-decoration: none;
+}
+
+.register{
+    text-decoration: none;
+}
+
+
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+
+#sidebarMenu {
+    width: 63px;
+    height: 90vh;
+    background-color: #6495ED !important;
+}
+
+
+.filter-options {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 360px !important;
+    z-index: 1;
+}
+
+
+.filter-icon {
+    position: absolute;
+    left: 6%;
+    transform: translateX(-5%);
+}
+
+.filter-icon:hover .filter-options {
+    display: block;
+}
+
+
+.filter-text {
+    margin-left: 20px;
+}
+
+.text-right {
+    margin-right: 80px;
+}
+
+#parent {
+    display: grid;
+    height: 80px;
+    grid-gap: 0 2px; /* row gap: 0, column gap: 20px */
+    grid-auto-flow: column;
+    grid-auto-columns: 8%; /* default size for the columns in the grid */
+    overflow-x: auto;
+    position: absolute;
+    top: 25%;
+    margin-left: 200px;
+    font-size: 12px;
+    /* background-color: rgb(224, 224, 224);  */
+}
+
+
+.card{
+    margin-left: 960px;
+}
+
+#para{
+    position: absolute;
+    top: 300;
+    right: 80;
+}
+
+#copilotimg{
+    top: 200;
+    position: absolute;
+    left: 40;
+}
+
+#cop{
+    background-color:  #e4e8f3 !important; 
+    height: 780px;
+    width: 1480px;
+}
+
+
+.vertical {
+    border-left: 1px solid black;
+    height: 350px;
+    position:absolute;
+    left: 50%;
+}
+
+#iot{
+    position: absolute;
+    left: 70;
+}
