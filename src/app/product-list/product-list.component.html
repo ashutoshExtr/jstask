@@ -1,0 +1,17 @@
+<!-- using string interpolation -->
+<p>Name: {{ product.name }}</p>
+<p>Price: {{ product.price }} </p>
+<p>Color: Grey</p>
+<p>Discount Price: {{ getdiscount().toFixed(2) }}</p>
+
+
+ <!-- using property binding -->
+<input [value]="name" (input)="onNameChange($event)">
+
+<!-- <input bind-value="name">  // another way -->
+<!-- <br>
+<p>name = {{ name }}</p> -->
+<br>
+<button (click)="decrementValue()">-</button>
+<span> {{ addToCart }} </span>
+<button (click)="incrementValue()">+</button>
